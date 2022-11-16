@@ -1,0 +1,1810 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/sandoval/Final
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52244
+Successfully changed project path to: C:/Users/sandoval/Final
+C:/Users/sandoval/Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 121.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path D:/unity/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sandoval/Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.12015.1008
+Initialize mono
+Mono path[0] = 'D:/unity/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004628 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 114.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.847 seconds
+Domain Reload Profiling:
+	ReloadAssembly (848ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (596ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006502 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\sandoval\Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\sandoval\Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1454ms)
+		BeginReloadAssembly (255ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1050ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (504ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.3 KB). Loaded Objects now: 3923.
+Memory consumption went from 211.0 MB to 210.9 MB.
+Total: 4.211800 ms (FindLiveObjects: 0.460800 ms CreateObjectMapping: 0.194300 ms MarkObjects: 3.382900 ms  DeleteObjects: 0.172300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 450105.081301 seconds.
+  path: Assets/Rotate.cs
+  artifactKey: Guid(e4bf2a8bd6d3d004084b269eca5d0191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rotate.cs using Guid(e4bf2a8bd6d3d004084b269eca5d0191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e8e318ec25cd2fdd15cd525a1f8997') in 0.029172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.002730 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(d0cbee8c268766a4ea36dfa904bb495e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewBehaviourScript.cs using Guid(d0cbee8c268766a4ea36dfa904bb495e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8cd4825e149f35d6fe7511ea7e2482d') in 0.190734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tree10/Tree10_5.prefab
+  artifactKey: Guid(107f12f79e197c44e94e1d306314702b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10_5.prefab using Guid(107f12f79e197c44e94e1d306314702b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b43adb5b26ac33efdc9355554b897f39') in 0.162736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Bosque/Tierra/NewLayer 1.terrainlayer
+  artifactKey: Guid(185be98e0d9dd9f4292e17b968bf077d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Tierra/NewLayer 1.terrainlayer using Guid(185be98e0d9dd9f4292e17b968bf077d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1d8d5f636007a43053a5cb03ceb602e') in 0.041651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval Castle/Models/Tower_1.fbx
+  artifactKey: Guid(111e490940fb9de46bcc88f858044203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/Tower_1.fbx using Guid(111e490940fb9de46bcc88f858044203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6683712efafe3b247f5c57598660546b') in 0.109469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Bosque/Flores/grass02.tga
+  artifactKey: Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Flores/grass02.tga using Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caf0bcca406fb55500769dd52ad039bf') in 0.075770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower2A.prefab
+  artifactKey: Guid(9f3e4d692b8a3f945a9a444d14ccd45c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Tower2A.prefab using Guid(9f3e4d692b8a3f945a9a444d14ccd45c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06bf684d34a45ba1412bf69964db2814') in 0.025996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mushroom house/StandardDoubleSided.shader
+  artifactKey: Guid(0afc4afff48685a40864501bfcaabd5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/StandardDoubleSided.shader using Guid(0afc4afff48685a40864501bfcaabd5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ffba4a9eafc2edfa303e8b75195791a') in 0.042431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(9eacc556be398ae4e8240211be1c9ab6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/MainMenu.unity using Guid(9eacc556be398ae4e8240211be1c9ab6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08f1981df82e025a43e657237a0836fe') in 0.013300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Bosque/Tierra/bosque 1.png
+  artifactKey: Guid(3a75cd297af9e394aad2d14b6ea7b853) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Tierra/bosque 1.png using Guid(3a75cd297af9e394aad2d14b6ea7b853) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0f62cb5137112757e8d4697f74cfeff') in 0.050307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval Castle/Models/Step.fbx
+  artifactKey: Guid(05f6b529cae78644e84f00ef03728924) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/Step.fbx using Guid(05f6b529cae78644e84f00ef03728924) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b10391c99ff6c634f80c02b8bcc90f2') in 0.036530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tree10/Tree10.unity
+  artifactKey: Guid(48737350db0dd2149a3a95a1718750d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10.unity using Guid(48737350db0dd2149a3a95a1718750d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03850cabe2d2791449550e4257239423') in 0.014058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundDirtColorGroundDirtNormal2023054508611406.terrainlayer
+  artifactKey: Guid(b490b18a640523e47a383f188f29a840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundDirtColorGroundDirtNormal2023054508611406.terrainlayer using Guid(b490b18a640523e47a383f188f29a840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b35c71da066090479eae57270f51df2') in 0.024611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Settings/High_PipelineAsset.asset
+  artifactKey: Guid(72d8dd88d0470f448b616a49011811a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/High_PipelineAsset.asset using Guid(72d8dd88d0470f448b616a49011811a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7fc04606b60e662b691d475a4367fe1') in 0.021318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Medieval Castle/Models/Window.fbx
+  artifactKey: Guid(75dbf1ce1ab6fa245915e1c82ec3ca17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/Window.fbx using Guid(75dbf1ce1ab6fa245915e1c82ec3ca17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f1ead4e4973216db15f82182b3d7f86') in 0.044260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower2_T2.prefab
+  artifactKey: Guid(dad4a38c42e646a45b2da5a4b983b3a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Tower2_T2.prefab using Guid(dad4a38c42e646a45b2da5a4b983b3a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf3e830524d8952a1369c97565056574') in 0.023370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Bosque/Flores/grassFlower05.tga
+  artifactKey: Guid(e3b33de953074bc4a88d9487f19c1202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Flores/grassFlower05.tga using Guid(e3b33de953074bc4a88d9487f19c1202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c713c5224a4648b423028ee528d071b') in 0.038565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Mushroom house/texture/leaves_Diffuse.tga
+  artifactKey: Guid(e74a48e04ed63ed4d8c748243d674f2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/texture/leaves_Diffuse.tga using Guid(e74a48e04ed63ed4d8c748243d674f2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e83af849a049115aaacf05b279b39c9') in 0.036961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mushroom house/mesh/pine_tree_02.FBX
+  artifactKey: Guid(45a06f4552402104aa2599d44c11e326) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/mesh/pine_tree_02.FBX using Guid(45a06f4552402104aa2599d44c11e326) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfc10048dd46237d516a123c1580d6f4') in 0.033168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mushroom house/prefab/Pine_tree02.prefab
+  artifactKey: Guid(cea22fc85752a934b91b7c05860603e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/prefab/Pine_tree02.prefab using Guid(cea22fc85752a934b91b7c05860603e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff40f615b7d7380d3e4a0027405082e8') in 0.023228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Mushroom house/prefab/Pine_tree_03.prefab
+  artifactKey: Guid(3df609545a83ccf44bb30237e3fc1bcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/prefab/Pine_tree_03.prefab using Guid(3df609545a83ccf44bb30237e3fc1bcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4aadf932471a396fa42e5cd7566d866c') in 0.017902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Castle/Models/Tower2A.fbx
+  artifactKey: Guid(8d68b9ee1c344254c850b9a34b2db3b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/Tower2A.fbx using Guid(8d68b9ee1c344254c850b9a34b2db3b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47d1fac3fd9547391c69447e9183566d') in 0.035611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer
+  artifactKey: Guid(8e59fbaf24e361649a4f0e18c6f8bf7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer using Guid(8e59fbaf24e361649a4f0e18c6f8bf7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6378538734b70944e6d04dcf3026f28') in 0.072023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tree10/Leaf18_N.png
+  artifactKey: Guid(3598650e07235764aa3058413bb1d903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Leaf18_N.png using Guid(3598650e07235764aa3058413bb1d903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0468ac40c08f44b1a982277269b12504') in 0.040246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval Bridge/Shaders/Double sided.shader
+  artifactKey: Guid(963d58b104fa8c34788c7ad99a7c8aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Shaders/Double sided.shader using Guid(963d58b104fa8c34788c7ad99a7c8aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22f1e29f87397aa7b7ded6f89ae85584') in 0.030025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Bosque/Flores/grassFlower10.tga
+  artifactKey: Guid(dcefc591c195a9f468e9157baa03eb4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Flores/grassFlower10.tga using Guid(dcefc591c195a9f468e9157baa03eb4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b52a0297886894b8dad76c9b6f11588') in 0.038235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Medieval Castle/Post_Process/Post_Process.asset
+  artifactKey: Guid(1986f093d4045d049adf1cdaaefa5f20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Post_Process/Post_Process.asset using Guid(1986f093d4045d049adf1cdaaefa5f20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2256424f6e5bc29a3753cda78c7ee9c9') in 0.020303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Medieval Castle/Prefab/Wall.prefab
+  artifactKey: Guid(112d075ab48b1b943b155b6543f0b096) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Wall.prefab using Guid(112d075ab48b1b943b155b6543f0b096) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '635be81ea2dc5232a00957586b0b9934') in 0.023880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tree10/Tree10Settings.lighting
+  artifactKey: Guid(5f5ce57a563da2847a70e10176e92165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10Settings.lighting using Guid(5f5ce57a563da2847a70e10176e92165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '268311c8299244a3418af12e431d6943') in 0.043540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mushroom house/texture/mushroom_house_normals.tga
+  artifactKey: Guid(682a01914fb46c747991476e065a69d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/texture/mushroom_house_normals.tga using Guid(682a01914fb46c747991476e065a69d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '519a4b9f3ee09cf854fad1785fd6a04d') in 0.036618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StoneFence/Prefabs/StoneFence_Post_LOD0.prefab
+  artifactKey: Guid(f63e675fe3b6b9646beb49d9dd3e30ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StoneFence/Prefabs/StoneFence_Post_LOD0.prefab using Guid(f63e675fe3b6b9646beb49d9dd3e30ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7d7ca612ad430a54379582a677dd5dc') in 0.040137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StoneFence/Meshes/StoneFence_Post_LOD1.fbx
+  artifactKey: Guid(b408f83e9092d0446ae6981be1c68eda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StoneFence/Meshes/StoneFence_Post_LOD1.fbx using Guid(b408f83e9092d0446ae6981be1c68eda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eda37998cce1d6c1765ca7b54ae4362c') in 0.041757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/Escene1/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Escene1/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a84b96213838f45b774e5982761dcec5') in 0.013578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StoneFence/Prefabs/StoneFence_Post_LOD1.prefab
+  artifactKey: Guid(d9bb611e9d73b9f4085f98b4a66d3319) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StoneFence/Prefabs/StoneFence_Post_LOD1.prefab using Guid(d9bb611e9d73b9f4085f98b4a66d3319) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1659cb576cdc5ec314660802ffb0984') in 0.027193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundGrassColorGroundDirtNormal2023054508611406.terrainlayer
+  artifactKey: Guid(a42fadc2a8ca0994aab98953c6dcc8da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundGrassColorGroundDirtNormal2023054508611406.terrainlayer using Guid(a42fadc2a8ca0994aab98953c6dcc8da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '474a3b1d32b107a2dfc4c10f21bcc13d') in 0.030714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval Castle/Models/tower1_Int.fbx
+  artifactKey: Guid(0badb7f1c2b412943ac75a0235299326) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/tower1_Int.fbx using Guid(0badb7f1c2b412943ac75a0235299326) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cde5e5c3d77db35f08a8e7ecc5a569f8') in 0.036590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mushroom house/texture/mushroom_Diffuse.tga
+  artifactKey: Guid(6fafa8a623c2e8248a74729da1e2556e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/texture/mushroom_Diffuse.tga using Guid(6fafa8a623c2e8248a74729da1e2556e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b52cdcb07dda8edea7547d6a6fe9a5f') in 0.033629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Bosque/Flores/grassFlower09.tga
+  artifactKey: Guid(d238efbd27bc5ae4ead9839995f74830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Flores/grassFlower09.tga using Guid(d238efbd27bc5ae4ead9839995f74830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d23df1a1e08cd47777cad6e710f0bfc') in 0.039532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mushroom house/texture/mushroom_house_specular.tga
+  artifactKey: Guid(e3feca9be0fd4c44b85c6effee6d1161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/texture/mushroom_house_specular.tga using Guid(e3feca9be0fd4c44b85c6effee6d1161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dde1a3e0d886ee9a8941cf3d9208c34b') in 0.029999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Medieval Castle/Models/Tower3A.fbx
+  artifactKey: Guid(06ba67ce19f110b40aa2d61eedf9475e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/Tower3A.fbx using Guid(06ba67ce19f110b40aa2d61eedf9475e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3f9354115f8423fdb8717b4b044c8b4') in 0.052404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '462b0ebfd9b6a3bbdcd18a5ba6a383f6') in 0.023332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StoneFence/Textures/StoneFence02.tga
+  artifactKey: Guid(0b2732d69476ab642ae0b87c588dffed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StoneFence/Textures/StoneFence02.tga using Guid(0b2732d69476ab642ae0b87c588dffed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8cb84e2ff688a0a856800c3e37626af') in 0.040991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StoneFence/Prefabs/StoneFence_Wall_LOD1.prefab
+  artifactKey: Guid(b1559853add1b50439493757eb5f57cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StoneFence/Prefabs/StoneFence_Wall_LOD1.prefab using Guid(b1559853add1b50439493757eb5f57cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cddf14d6734f0b4b9d760a5cb323d7c') in 0.027252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48d663b311b5dd4e61b04f92c7923a8b') in 0.022146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/StoneFence/Prefabs/StoneFence_Wall_LOD2.prefab
+  artifactKey: Guid(304d6e120f768dd418f558bd92acb781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StoneFence/Prefabs/StoneFence_Wall_LOD2.prefab using Guid(304d6e120f768dd418f558bd92acb781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b873a2a30c8e91c444044f0a05f947ec') in 0.039488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Medieval Castle/Material/New Lighting Settings.lighting
+  artifactKey: Guid(d5826a8ec1a3f7e48b856ac56227f51f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/New Lighting Settings.lighting using Guid(d5826a8ec1a3f7e48b856ac56227f51f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5a87631376b20dd496ce3272532d343') in 0.028013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Bosque/Flores/grassFlower03.tga
+  artifactKey: Guid(c6bde8cacfa93444fa98152cb9e36815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Flores/grassFlower03.tga using Guid(c6bde8cacfa93444fa98152cb9e36815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38291b07e29f296135edb63714421fad') in 0.037544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mushroom house/Materials/mushroom.mat
+  artifactKey: Guid(200a7e6894dbc8b438a5c01028169980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/Materials/mushroom.mat using Guid(200a7e6894dbc8b438a5c01028169980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05545e6e37c9f6bcbd7cd740fafdc917') in 0.041002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/StoneFence/Textures/StoneFence01.tga
+  artifactKey: Guid(7e52127b77432c24f912b77b8ad86899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StoneFence/Textures/StoneFence01.tga using Guid(7e52127b77432c24f912b77b8ad86899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77489ef96d7030da4749c09b5562ed33') in 0.032553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower3.prefab
+  artifactKey: Guid(0bf6a1b5eb731014a80e423b5f446448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Tower3.prefab using Guid(0bf6a1b5eb731014a80e423b5f446448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ea9808e4d83c9a721a8d072d11ba91b') in 0.040217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Medieval Castle/Models/TowerS_Int.fbx
+  artifactKey: Guid(f48152e79cb43fa48bfabdb06b709b20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/TowerS_Int.fbx using Guid(f48152e79cb43fa48bfabdb06b709b20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '876cd7e8f3e0306a48e5182b2326a893') in 0.050673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mushroom house/Materials/mushroom_house.mat
+  artifactKey: Guid(ee5cc55752bc5d14394e3f61b2e12eed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/Materials/mushroom_house.mat using Guid(ee5cc55752bc5d14394e3f61b2e12eed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cce5ea2e5c20db730aa7f37afa653ecc') in 0.027311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec27ff552b78f5b155be8413c17800c8') in 0.025082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8a571a8191cb64bc54f9e17055443ed') in 0.059721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b003f425805083cce7ae195bc197ed19') in 0.020143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tree10/Tree10_2_Textures/normal_specular.png
+  artifactKey: Guid(1491c7e658794584bba2b2e2af787693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10_2_Textures/normal_specular.png using Guid(1491c7e658794584bba2b2e2af787693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fac2f4bf0499011b7503cd9dc49b49ae') in 0.039943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa981a93da6657a47bf10631a5e3b807') in 0.021514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mushroom house/Materials/pine_tree.mat
+  artifactKey: Guid(e7013a8f13fb84a4d99a7f959e659695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/Materials/pine_tree.mat using Guid(e7013a8f13fb84a4d99a7f959e659695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecc6e1c155b93352889a4f260e2cd2e5') in 0.022719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Settings/Very Low_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(45aee2e5fa932c1439a3adf6664d0634) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Very Low_PipelineAsset_ForwardRenderer.asset using Guid(45aee2e5fa932c1439a3adf6664d0634) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '956fd920322f9e0e88c7d4c78910d1a8') in 0.025165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Bosque/Tierra/arena2.png
+  artifactKey: Guid(8dd2702a47c62ed428ba419b05d61412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Tierra/arena2.png using Guid(8dd2702a47c62ed428ba419b05d61412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c288c3b7a935f7235bb8a5f9fec2c873') in 0.038965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Bridge/Prefabs/Flag 5.prefab
+  artifactKey: Guid(1d6469410a2bc5641aa734ae9df06911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Prefabs/Flag 5.prefab using Guid(1d6469410a2bc5641aa734ae9df06911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ec964820dcfbac5010696bacba91d8e') in 0.026659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mushroom house/texture/mushroom_specular.tga
+  artifactKey: Guid(0b25ccc98ee17d24093d77dd2e03e017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/texture/mushroom_specular.tga using Guid(0b25ccc98ee17d24093d77dd2e03e017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0ab7e67df57b1a3451a4f2e6cc79d15') in 0.032648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af093ad13f6b1a7fe88fb55b13701241') in 0.021499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval Castle/Models/1.fbx
+  artifactKey: Guid(11917502b49fe0249ad8f896b2b4ae59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/1.fbx using Guid(11917502b49fe0249ad8f896b2b4ae59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8043a0719cfce6d0a8937b5cf83f728a') in 0.045374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Medieval Castle/Models/Tower1_A.fbx
+  artifactKey: Guid(f594161307bff944cafed9e44e5a19e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/Tower1_A.fbx using Guid(f594161307bff944cafed9e44e5a19e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19563ecda5f8d74ee8870b01e58daf8f') in 0.054858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Bosque/Rocas/Textures/Rock1.tif
+  artifactKey: Guid(8ac27950212a9df4d87808223c04b781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/Textures/Rock1.tif using Guid(8ac27950212a9df4d87808223c04b781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b4d31ea4891b32d999cdaa1fe1ea223') in 0.046114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tree10/Tree10_5_Textures/diffuse.png
+  artifactKey: Guid(8a43632a0ec7ffc46b37e73a2dff48a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10_5_Textures/diffuse.png using Guid(8a43632a0ec7ffc46b37e73a2dff48a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a876c0390589781d39067786055b3a2a') in 0.035386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Bosque/Rocas/resources/Stone2.obj
+  artifactKey: Guid(7dee54fc10c143440b5d000ae38bd9d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/resources/Stone2.obj using Guid(7dee54fc10c143440b5d000ae38bd9d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '192166cc644b5f3c07114f81a282735a') in 0.058536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss
+  artifactKey: Guid(1668e0672a36a594da4452352fd09b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss using Guid(1668e0672a36a594da4452352fd09b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16c87b1d3442d7224f2df0933c97a3fd') in 0.109638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tree10/Tree10_3_Textures/diffuse.png
+  artifactKey: Guid(c6e7fe6e93ffd6448a2d96eaeeab3273) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10_3_Textures/diffuse.png using Guid(c6e7fe6e93ffd6448a2d96eaeeab3273) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da4dfa5b7b4b3a3ab4422f58512d3801') in 0.025453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Medieval Castle/Post_Process/SkyBox.mat
+  artifactKey: Guid(2b4d1bac06e98a5438006451cbbc8ac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Post_Process/SkyBox.mat using Guid(2b4d1bac06e98a5438006451cbbc8ac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a3a231e963d67385a689cd571a25b71') in 0.041816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Bosque/Rocas/resources/Stone3.obj
+  artifactKey: Guid(bea95746bae4a204ca07fd2a8105aad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/resources/Stone3.obj using Guid(bea95746bae4a204ca07fd2a8105aad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20ab30f3f670fac0828304433d131d87') in 0.030597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower2_Roof.prefab
+  artifactKey: Guid(a31bfdb1a5f138d468e30f4658ecc12b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Tower2_Roof.prefab using Guid(a31bfdb1a5f138d468e30f4658ecc12b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f5de38c2d3e76ec6b2614bd7af3b911') in 0.014968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tree10/Tree10_4.prefab
+  artifactKey: Guid(e403bfb859c346040858d48e9c0c7150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10_4.prefab using Guid(e403bfb859c346040858d48e9c0c7150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4111d4740470b4e088d91c9f005c36d') in 0.054332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Bosque/Árboles/Materiales/normal_specular.png
+  artifactKey: Guid(086f225c65996f04f81158e3b4a934a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Árboles/Materiales/normal_specular.png using Guid(086f225c65996f04f81158e3b4a934a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6789570d95711d128e28159976063e13') in 0.037757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Bosque/Árboles/Prefabs/Árbol 4.prefab
+  artifactKey: Guid(1c0a1d8a01a4ecf49a903ff058915a3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Árboles/Prefabs/Árbol 4.prefab using Guid(1c0a1d8a01a4ecf49a903ff058915a3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc5fa3d45d348445a034d7aeb6f293cc') in 0.044500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Bosque/Árboles/Materiales/diffuse.png
+  artifactKey: Guid(a07eaae3fa8463a4993b8d933524ad68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Árboles/Materiales/diffuse.png using Guid(a07eaae3fa8463a4993b8d933524ad68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b47b8b247a94a0f6b2efb8e4dd4c688') in 0.034701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Bosque/Rocas/Textures/Stones1.tif
+  artifactKey: Guid(0964404a250635a429f4f4f3785b7421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/Textures/Stones1.tif using Guid(0964404a250635a429f4f4f3785b7421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '783828e8529269f646dd649f10a96400') in 0.046848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Bosque/Árboles/Materiales/translucency_gloss.png
+  artifactKey: Guid(d0172ccb25afee6429179f43622c38ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Árboles/Materiales/translucency_gloss.png using Guid(d0172ccb25afee6429179f43622c38ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26821734bdf031ab710a05292129f910') in 0.036779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Medieval Castle/Prefab/Stairs.prefab
+  artifactKey: Guid(4a067c3c26d37034bb66c14f4c537187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Stairs.prefab using Guid(4a067c3c26d37034bb66c14f4c537187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '835aba2fcce1fb71b65c01200af1f33e') in 0.030870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StoneFence/Meshes/StoneFence_Post_LOD0.fbx
+  artifactKey: Guid(e385bcd4ac58e104f9565da8d9be00f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StoneFence/Meshes/StoneFence_Post_LOD0.fbx using Guid(e385bcd4ac58e104f9565da8d9be00f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae5f7094914387afb1bb8ed8dfcf5ddc') in 0.029777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b9e47d4f2eff6f9bb674cd0cf55327f') in 0.014690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower1_A.prefab
+  artifactKey: Guid(f59513f993fffb5428e6fbf5ab249679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Tower1_A.prefab using Guid(f59513f993fffb5428e6fbf5ab249679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3208240b1f607a61f7b3d87718c38807') in 0.017771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower3A.prefab
+  artifactKey: Guid(06975022d7d227f418d02a531c2d8d25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Tower3A.prefab using Guid(06975022d7d227f418d02a531c2d8d25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3bd37a5f081097efc088c220d683a3d') in 0.020548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower2_Int.prefab
+  artifactKey: Guid(c0fbe600050d2e0468a8d5631cb56dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Tower2_Int.prefab using Guid(c0fbe600050d2e0468a8d5631cb56dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '677d375737ce5cc146aacb11fcc2c652') in 0.029564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GrassFlowers/Demo/DemoGrassFlowers.unity
+  artifactKey: Guid(679e28dd92e786342b7944447228f70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GrassFlowers/Demo/DemoGrassFlowers.unity using Guid(679e28dd92e786342b7944447228f70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60af3a31ec9e8c2c828437f8a113aa7f') in 0.018628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24530205b0a4b6c9fe69f4f487c87037') in 0.026592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Medieval Bridge/Texture and Materials/Bridge/2_AlbedoTransparency.png
+  artifactKey: Guid(aee51f6a0d9164c428b48d9642b18c31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Texture and Materials/Bridge/2_AlbedoTransparency.png using Guid(aee51f6a0d9164c428b48d9642b18c31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb4310d9d5966466ef2ad4bd3eb2a374') in 0.029428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GrassFlowers/Demo/DemoGrassFlowers/LightingData.asset
+  artifactKey: Guid(5490dd165db8d15458e920b5c398e991) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GrassFlowers/Demo/DemoGrassFlowers/LightingData.asset using Guid(5490dd165db8d15458e920b5c398e991) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '066de0b886255d2451f5876264d52c3d') in 0.050509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval Bridge/Texture and Materials/Bridge/3_Normal.png
+  artifactKey: Guid(317407992e7f44b418c29ab6d680d0f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Texture and Materials/Bridge/3_Normal.png using Guid(317407992e7f44b418c29ab6d680d0f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b27ec55159b1825de9326225bdade56a') in 0.029226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Medieval Bridge/Texture and Materials/Bridge/4_Main_AlbedoTransparency_OCC.png
+  artifactKey: Guid(e236c1faf0bbdec4ebb80d5f49fbf006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Texture and Materials/Bridge/4_Main_AlbedoTransparency_OCC.png using Guid(e236c1faf0bbdec4ebb80d5f49fbf006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2eba879186d3a78480f806b1ec7db3f6') in 0.028095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval Bridge/Texture and Materials/Bridge/2_AlbedoTransparency_OCC.png
+  artifactKey: Guid(48aa306c6eabf3044bfd77960dd78b99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Texture and Materials/Bridge/2_AlbedoTransparency_OCC.png using Guid(48aa306c6eabf3044bfd77960dd78b99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3748fe3ed8da7c21d0ec7b3441131204') in 0.038768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Bridge/Texture and Materials/Bridge/4_Main_AlbedoTransparency.png
+  artifactKey: Guid(55354b15f2101bd4abaac1dd48c2fccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Texture and Materials/Bridge/4_Main_AlbedoTransparency.png using Guid(55354b15f2101bd4abaac1dd48c2fccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9902bc4e35c455e6d7a8f7ecdc639b4') in 0.031046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/GrassFlowers/Demo/DemoGrassFlowers/ReflectionProbe-0.exr
+  artifactKey: Guid(ff26dd0d532f43942b51232390841a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GrassFlowers/Demo/DemoGrassFlowers/ReflectionProbe-0.exr using Guid(ff26dd0d532f43942b51232390841a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84ac16a77150e72907c67d8f17f89e29') in 0.048603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Medieval Castle/Prefab/TowerS_Int.prefab
+  artifactKey: Guid(ab9faa60872593b4f94cffd1693e7e8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/TowerS_Int.prefab using Guid(ab9faa60872593b4f94cffd1693e7e8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f027eb7593578e48082f16b09aca967e') in 0.015783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Bosque/Rocas/Prefabs/roca montañosa.prefab
+  artifactKey: Guid(7fb4958bb116ca745a436e703aa67632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/Prefabs/roca montañosa.prefab using Guid(7fb4958bb116ca745a436e703aa67632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fabf3e7abd73ed304357c99f1348f99') in 0.034131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Bridge/Texture and Materials/Bridge/2_AlbedoTransparency_NRM.png
+  artifactKey: Guid(50e3d7821965f374794a82db9ee69b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Texture and Materials/Bridge/2_AlbedoTransparency_NRM.png using Guid(50e3d7821965f374794a82db9ee69b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb95eccd9efa1b7c2dd34943900711b2') in 0.032059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tree10/Tree10_3_Textures/shadow.png
+  artifactKey: Guid(e24d7b9077904d1499bb01c73abf6922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10_3_Textures/shadow.png using Guid(e24d7b9077904d1499bb01c73abf6922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '657e1afb8010013ce4f34cccfbea6aa5') in 0.030931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Bosque/Rocas/resources/Stone1.obj
+  artifactKey: Guid(15d7bf5005cfb3b418a0d153a2462c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/resources/Stone1.obj using Guid(15d7bf5005cfb3b418a0d153a2462c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62b80ab83c8290577dca63da6dc3bdf7') in 0.041222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Medieval Castle/Material/Glass/Glass.mat
+  artifactKey: Guid(dd0da07b2d29ce64881b80caa72b2296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Glass/Glass.mat using Guid(dd0da07b2d29ce64881b80caa72b2296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b530c78151dca160626cfb5cba8361c4') in 0.026238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Medieval Castle/Material/Metal/Metal024_4K_Normal.png
+  artifactKey: Guid(74c2a7f9dbd7d6547b15ee8af4c163c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Metal/Metal024_4K_Normal.png using Guid(74c2a7f9dbd7d6547b15ee8af4c163c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c26e38c3e6bd76ec084be26bf516680') in 0.045660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Medieval Bridge/Texture and Materials/Bridge/Bridge_1.mat
+  artifactKey: Guid(7b8a51d1e2d443b4f8d20429c48543e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Texture and Materials/Bridge/Bridge_1.mat using Guid(7b8a51d1e2d443b4f8d20429c48543e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0bf6d30cf86e2b68d48bfa00b8a80ab') in 0.031875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Medieval Castle/Material/Metal/Metal024_4K_Displacement.png
+  artifactKey: Guid(ba1954dfe8afdd4489656a0b743c16a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Metal/Metal024_4K_Displacement.png using Guid(ba1954dfe8afdd4489656a0b743c16a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f5fad743ee3b0174d2d4f8a030b2a2e') in 0.040284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Medieval Castle/Material/Concrete/Concrete036D_Normal.png
+  artifactKey: Guid(d717d45b228e19d48bdc0388bb29eee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Concrete/Concrete036D_Normal.png using Guid(d717d45b228e19d48bdc0388bb29eee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f787c67380755afe5f9541c304810943') in 0.045551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Medieval Castle/Material/Plank/Plank.mat
+  artifactKey: Guid(007f61e52955b174fa7220e62e7f37e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Plank/Plank.mat using Guid(007f61e52955b174fa7220e62e7f37e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '806828a01d5c26ea3172612171febec0') in 0.071739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Medieval Bridge/Texture and Materials/Bridge/Bridge_4.mat
+  artifactKey: Guid(6b0ae066381638544a1cefe23009a631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Texture and Materials/Bridge/Bridge_4.mat using Guid(6b0ae066381638544a1cefe23009a631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c71f92c03623bf8a25c60637278c2de') in 0.032743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Castle/Material/Plank/Planks012_4K_Color.png
+  artifactKey: Guid(407cda222bbd9b24d98092db4a3f25bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Plank/Planks012_4K_Color.png using Guid(407cda222bbd9b24d98092db4a3f25bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00db96834747e8cb9e0d4a8f0596ca44') in 0.032239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Medieval Castle/Material/Plank/Planks012_4K_Displacement.png
+  artifactKey: Guid(3d5ea97705cf30e44ae7576f294f26c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Plank/Planks012_4K_Displacement.png using Guid(3d5ea97705cf30e44ae7576f294f26c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61861e8ae9665fab75c73af1b7c5bc9d') in 0.037662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tree10/Tree10_2_Textures/translucency_gloss.png
+  artifactKey: Guid(e5a45717c26da684eb9882d8ac810979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10_2_Textures/translucency_gloss.png using Guid(e5a45717c26da684eb9882d8ac810979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64729b629ff35e2ca7817d6e1bb4bf77') in 0.032482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Medieval Castle/Material/Plank/Planks012_4K_AmbientOcclusion.png
+  artifactKey: Guid(1f42176fe98acd44eaa21ed72c5d406c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Plank/Planks012_4K_AmbientOcclusion.png using Guid(1f42176fe98acd44eaa21ed72c5d406c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03723181986b260a395b00465a05de13') in 0.031630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Medieval Castle/Material/Rock/Rock042L_4K_Color.png
+  artifactKey: Guid(f4ff3dfb58cf60d498ac716d438dae8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Rock/Rock042L_4K_Color.png using Guid(f4ff3dfb58cf60d498ac716d438dae8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4da0e29bdd71d00c0a0dc0238f07d9b5') in 0.048543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Medieval Castle/Material/wall/Wall.mat
+  artifactKey: Guid(87bef58f9e1e6d94892e5006c08a38ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/wall/Wall.mat using Guid(87bef58f9e1e6d94892e5006c08a38ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24d080c64a37896ffb66c1cf9d72bd7b') in 0.071036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Medieval Castle/Material/Rock2/Rock012_2K_NormalDX.png
+  artifactKey: Guid(68e6d7e8ac133ff4894e9c2f0d7f0fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Rock2/Rock012_2K_NormalDX.png using Guid(68e6d7e8ac133ff4894e9c2f0d7f0fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82e17240280ceedc5a953d2d556aca6e') in 0.070274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Medieval Castle/Material/wood/Wood.mat
+  artifactKey: Guid(9a89eaf4faeda6841b4f1e74d744fc17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/wood/Wood.mat using Guid(9a89eaf4faeda6841b4f1e74d744fc17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb959d961e33e54273ca09c70ec91480') in 0.082377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Medieval Castle/Material/wall/wall3_Albedo.png
+  artifactKey: Guid(b29df6d4a55b5e04abe206bb757c8118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/wall/wall3_Albedo.png using Guid(b29df6d4a55b5e04abe206bb757c8118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcc9e3c8d6f57a75665e68ba2380acd0') in 0.037808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Medieval Castle/Material/wall/wall3_Displacement.png
+  artifactKey: Guid(b8a97b749704e3f4194a2de444beddfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/wall/wall3_Displacement.png using Guid(b8a97b749704e3f4194a2de444beddfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edf1b1fddc9fd0f5e413fc22584416ad') in 0.032085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Castle/Material/wood/wood_Albedo.png
+  artifactKey: Guid(df07ec0c5af9caa40b19f644d5daa3e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/wood/wood_Albedo.png using Guid(df07ec0c5af9caa40b19f644d5daa3e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27fb3ba7c7e45785d2425418a5c17a2d') in 0.042201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Medieval Castle/Material/Metal/Metal024_4K_Color.png
+  artifactKey: Guid(368cee9aa09820447acfd889318eaff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Metal/Metal024_4K_Color.png using Guid(368cee9aa09820447acfd889318eaff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1f2b8a0a4e13ab798656d0cfaded179') in 0.029398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+  artifactKey: Guid(73a79399807f4e8388c2cbb5494681ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt using Guid(73a79399807f4e8388c2cbb5494681ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fb05a48b43f270a56a1c129ebddb109') in 0.013802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mushroom house/mesh/Materials/mushroom_house_Diffuse.mat
+  artifactKey: Guid(d37e7f4bd1b97b148ac919fc83230d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/mesh/Materials/mushroom_house_Diffuse.mat using Guid(d37e7f4bd1b97b148ac919fc83230d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd318f459575443f389bc58ae10a10c7d') in 0.016860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fae59ba58093b445f2026d6068e2d300') in 0.034561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Medieval Castle/Prefab/Assemble/Wall_Gate_Door.prefab
+  artifactKey: Guid(314d8309ecc37b841991fa5ae0997742) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Assemble/Wall_Gate_Door.prefab using Guid(314d8309ecc37b841991fa5ae0997742) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd76600444fbb3d4e20d76dc3c1615729') in 0.029584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Medieval Castle/Material/wood/wood_Displacement.png
+  artifactKey: Guid(58ce602d6ea79ab47985019db8941605) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/wood/wood_Displacement.png using Guid(58ce602d6ea79ab47985019db8941605) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af542bc158ac4f0c221a07f4ef85d68d') in 0.035783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tree10/Tree10_3_Textures/translucency_gloss.png
+  artifactKey: Guid(446a7f0469b11424286080e7161c2e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10_3_Textures/translucency_gloss.png using Guid(446a7f0469b11424286080e7161c2e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e4fd21e92751b51dce27f70f8085132') in 0.032760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Medieval Castle/Material/roof/grey_roof_tiles_disp_4k.png
+  artifactKey: Guid(9d81929e912a74746a41709bad744b33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/roof/grey_roof_tiles_disp_4k.png using Guid(9d81929e912a74746a41709bad744b33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74e5cfdab39990d147042cd62b88f877') in 0.050824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Medieval Castle/Material/Ground/Ground003_4K_NormalGL.png
+  artifactKey: Guid(2e4e7a243f1376f4582bb22a56c304b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Ground/Ground003_4K_NormalGL.png using Guid(2e4e7a243f1376f4582bb22a56c304b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '293685528aca583ea26477671fded7bf') in 0.039156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Medieval Castle/Material/Rock2/Rock2.mat
+  artifactKey: Guid(dd9fbe382d961ff46bd9ed06b3a43616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Rock2/Rock2.mat using Guid(dd9fbe382d961ff46bd9ed06b3a43616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d33733befc1b426a6a064ebf5fc4724') in 0.056950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Medieval Castle/Prefab/Assemble/Tower2.prefab
+  artifactKey: Guid(6bc674b3353c8c4409e6296658998682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Assemble/Tower2.prefab using Guid(6bc674b3353c8c4409e6296658998682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '015fcd8f814a6b019fc833d5c32497ee') in 0.029152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tree10/Tree10_1_Textures/translucency_gloss.png
+  artifactKey: Guid(2ef33f41bd5374c4ba74b3b8c0981d7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10_1_Textures/translucency_gloss.png using Guid(2ef33f41bd5374c4ba74b3b8c0981d7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc3fd6dce2782779310a1e8ea5142c83') in 0.029998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval Castle/Material/wall/wall3_AO.png
+  artifactKey: Guid(f4f41c62c6a7bed418ccc3c39925bd1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/wall/wall3_AO.png using Guid(f4f41c62c6a7bed418ccc3c39925bd1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50306683a1c601da394e5b63ed521b52') in 0.034178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+  artifactKey: Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity using Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fac16dc5c611df5831a87c8f31d90eda') in 0.014881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4579a171483fc8769d8bf4dd85a581d7') in 0.128304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4d6fab83413371e8f96b78420cb1846') in 0.022966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
+  artifactKey: Guid(8f7137eacd7042d5b17ef0efe5e744f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity using Guid(8f7137eacd7042d5b17ef0efe5e744f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3f57c890c976432c5dbad6ce2bf1c38') in 0.014472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e91a6a7f507cadc91e24901a9ed88ae') in 0.018450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+  artifactKey: Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity using Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b273c4ef82447988fc31b22f181b3c3') in 0.014680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04ac4634c5c3139bc6e74e703f87711a') in 0.044832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b547d5b8b2e72d64f8bca9153edeca05') in 0.061736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Bosque/Árboles/Resources/Tree9_3.prefab
+  artifactKey: Guid(8b2d47fdc2e25ac4f9721480a68bbefa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Árboles/Resources/Tree9_3.prefab using Guid(8b2d47fdc2e25ac4f9721480a68bbefa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e05c519df8e819d4ec381012f6e248dd') in 0.052748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Medieval Bridge/Texture and Materials/Flag/Flag_4.mat
+  artifactKey: Guid(5006430da7f222f479cdbd94ca50eee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Texture and Materials/Flag/Flag_4.mat using Guid(5006430da7f222f479cdbd94ca50eee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c629066d69fab37453c327b75f52400') in 0.027060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Bosque/Árboles/Resources/Tree9_5.prefab
+  artifactKey: Guid(9b8fc966f95ea9c4194dc091fc40b478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Árboles/Resources/Tree9_5.prefab using Guid(9b8fc966f95ea9c4194dc091fc40b478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abb66242b70fb55e13cf7dd7ff942ff0') in 0.060021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  artifactKey: Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs using Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ebc413fb392b9e3a5f5bcab06bf77c0') in 0.020493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity
+  artifactKey: Guid(6250f98e58fe4abbaada5d84b7ca846d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity using Guid(6250f98e58fe4abbaada5d84b7ca846d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc7c2279841a80ea2f57a687759d7e92') in 0.017530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+  artifactKey: Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs using Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8680cb238e745f25f9115a59d742a2f6') in 0.018063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+  artifactKey: Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity using Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fed5b10aa5cab7873993d2db673a25e') in 0.016037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+  artifactKey: Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity using Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee53be79311fa839dc1aaf29013711dd') in 0.016844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+  artifactKey: Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs using Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb5aa2002bd7d10803c13f01ec05527b') in 0.017671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity
+  artifactKey: Guid(9442cda25baa4a0bb544c4d095b00caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity using Guid(9442cda25baa4a0bb544c4d095b00caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea8747482a619d778672d5cc23e1aa12') in 0.016874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82545adf6b70433bce176d009710fa5e') in 0.017830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+  artifactKey: Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity using Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d7b76c8868c3aedaf0fc5183995f46b') in 0.017928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Medieval Castle/Material/Concrete/Concrete036D_AO.png
+  artifactKey: Guid(e739f9f29fb09d84a91cc26cceff61cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Concrete/Concrete036D_AO.png using Guid(e739f9f29fb09d84a91cc26cceff61cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6250815eb337d5f82cb4deb57dfdc304') in 0.043033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+  artifactKey: Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity using Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3dcf5b1452c9c125a6d645a5650402a5') in 0.017241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Bosque/Árboles/Materiales/Leafs19_N.png
+  artifactKey: Guid(fa41cc63b7bd56f4da64009c1c218880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Árboles/Materiales/Leafs19_N.png using Guid(fa41cc63b7bd56f4da64009c1c218880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52ff768da7e4fd36d91173872e069865') in 0.032084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Settings/Low_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(1141df033ba0e0240a54fb892fde6df9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Low_PipelineAsset_ForwardRenderer.asset using Guid(1141df033ba0e0240a54fb892fde6df9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6435c8fc67be13a8645692366b4680ce') in 0.022939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+  artifactKey: Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity using Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f5465f8e42c561f6139fc2d22e3f40c') in 0.015622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Tree10/Tree10_1.prefab
+  artifactKey: Guid(673a5daab7ec28d4c9e7c80ea6a793c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Tree10_1.prefab using Guid(673a5daab7ec28d4c9e7c80ea6a793c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dbb436011e4ebdcd96770a883d10235') in 0.066321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4da0134d90a64517bd9f24ea31637077') in 0.017922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+  artifactKey: Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs using Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a22fee3251351f9d86a2fb572d6b2ece') in 0.021270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+  artifactKey: Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs using Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8eca5ed6afaf806e392cab3a4faab9dd') in 0.023185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3841e740a2caf9e612f062736bd3ec80') in 0.046967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+  artifactKey: Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs using Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '857d59262c92b5f3063d9806519f5bc4') in 0.025819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  artifactKey: Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs using Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9fda382447c5c783d15b6d7a32ad0f4') in 0.018522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d070a5411251b974da1bf5a182070ed') in 0.023853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+  artifactKey: Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs using Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b386f46931bf6aa6bf518a3b1bf5df20') in 0.018695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+  artifactKey: Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs using Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adcf9749b37e0f25cf849e5db92221d8') in 0.021426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7807d6f8d638e442de9e15d7040c9e71') in 0.051540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+  artifactKey: Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs using Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2a744cf1934eeee1373dbd706581ebe') in 0.022285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+  artifactKey: Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs using Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a925dfc43dcac85f04bb42d6548e2f3') in 0.024339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+  artifactKey: Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png using Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18093443abdcb82f544cb28a3bfe2d2d') in 0.038590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+  artifactKey: Guid(ed5290d8df18488780e2996b9b882f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd using Guid(ed5290d8df18488780e2996b9b882f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ca94a351e45021d71ce42792b2c7f62') in 0.046290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Bosque/Rocas/resources/Materials/Rock1_LP_pCube1Mat.mat
+  artifactKey: Guid(83cdf73a66554e746bfe09ce70225e83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/resources/Materials/Rock1_LP_pCube1Mat.mat using Guid(83cdf73a66554e746bfe09ce70225e83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0686e6b13795b6d6dbe2309a94b1d215') in 0.036152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c60a9a4cd6bb76590f342ffe2de2d738') in 0.062313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Bosque/Rocas/resources/Materials/Rock1_detail.mat
+  artifactKey: Guid(433be6cd03cb92149bdfa31a8ceee0b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/resources/Materials/Rock1_detail.mat using Guid(433be6cd03cb92149bdfa31a8ceee0b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7adcd85b06409ecec19a5dfa8c0e89b5') in 0.031544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+  artifactKey: Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd using Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ca44e117a2d0b5f6e9e789c0d4b71f8') in 0.039833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+  artifactKey: Guid(17c350171f7a3ca479f830547c66d187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg using Guid(17c350171f7a3ca479f830547c66d187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa275335ed0383cf250a3341aeb508fa') in 0.044920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a2a2c01ab0a15689ba641aceaf11612') in 0.039773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aac4187350f9509e9c097174829284db') in 0.049388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Bosque/Rocas/resources/Materials/Rock3.mat
+  artifactKey: Guid(e3216aea715c3814b950d01403134fdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/resources/Materials/Rock3.mat using Guid(e3216aea715c3814b950d01403134fdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cda6bf1826c5b22cc89b2f1b2d867621') in 0.029069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Bosque/Rocas/resources/Materials/Rock4.mat
+  artifactKey: Guid(c726889f848f3914ea319138c4732078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/resources/Materials/Rock4.mat using Guid(c726889f848f3914ea319138c4732078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc9d2dee07761059c5c2b7307179540a') in 0.019921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval Castle/Material/Rock/Materials/NewLayer.terrainlayer
+  artifactKey: Guid(6be45095a07d0db439be4b4cca3a68cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Rock/Materials/NewLayer.terrainlayer using Guid(6be45095a07d0db439be4b4cca3a68cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0512cb54fb6ab5b3aca97397b6b40f6') in 0.025177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74a2cb5e170e8f8f6d612c05c72f1286') in 0.023355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff137d94e7106a6bf5c8077fac8ead99') in 0.018702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval Castle/Material/Rock/Materials/Rock042L_4K_Color.mat
+  artifactKey: Guid(e323a62f19cbc444ba6f51b8c4f13289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Rock/Materials/Rock042L_4K_Color.mat using Guid(e323a62f19cbc444ba6f51b8c4f13289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b83f2f78ad23e971bcd0ff40d231661') in 0.024432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Bosque/Rocas/resources/Materials/Stone1.mat
+  artifactKey: Guid(be159aba68e4b494e93a00073787d6e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/resources/Materials/Stone1.mat using Guid(be159aba68e4b494e93a00073787d6e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52e5f481d30f26ed04bc3d46bf78cc64') in 0.021117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Bosque/Rocas/resources/Materials/polySurface3Mat.mat
+  artifactKey: Guid(7fe83ffd9a6a59e4f9ebc3d9691a1709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/resources/Materials/polySurface3Mat.mat using Guid(7fe83ffd9a6a59e4f9ebc3d9691a1709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef69332d1dde7b34da1b6e71f82e2aa3') in 0.026105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+  artifactKey: Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd using Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6512612a2d5e100a77a68aa947452f77') in 0.026849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c647e59d6e3c8008c7767e24a52af99') in 0.025338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+  artifactKey: Guid(686ec78b56aa445795335fbadafcfaa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs using Guid(686ec78b56aa445795335fbadafcfaa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55205fba830ef39108d16a9f27c7f90e') in 0.015377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7d8debda4248c2c3913c1724bc13e4c') in 0.048227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Medieval Castle/Material/Rock/Rock042L_4K_NormalDX.png
+  artifactKey: Guid(e5d56566720898c4aafe1c913a6e32cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/Rock/Rock042L_4K_NormalDX.png using Guid(e5d56566720898c4aafe1c913a6e32cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8449c38201edb9227b4ce2921a0155ce') in 0.043469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GrassFlowers/Textures/Ground/NewLayer.terrainlayer
+  artifactKey: Guid(4edc9e37338f44e4d937cad9d900376d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GrassFlowers/Textures/Ground/NewLayer.terrainlayer using Guid(4edc9e37338f44e4d937cad9d900376d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06b0eb47492a9567132d022fee62bddc') in 0.032527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mushroom house/mesh/Materials/pine_tree_leaves_Diffuse.mat
+  artifactKey: Guid(38f11fa79515c584fa836e6c0f99ff0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/mesh/Materials/pine_tree_leaves_Diffuse.mat using Guid(38f11fa79515c584fa836e6c0f99ff0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '348ad0a3d02a99b4ab52df105fb7c606') in 0.018379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb13c985cf14f9cd68e74e8266644b41') in 0.021079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8302bd7bab2567c1a4d08e50c7361bf8') in 0.023497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset
+  artifactKey: Guid(fbef3c704dce48f08a44612d6c856c8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset using Guid(fbef3c704dce48f08a44612d6c856c8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bde7c5b0efb3e7a9299969be73f125d') in 0.026511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '716b72061a95127b89a3a75cb26edd09') in 0.021943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '257f218d4e83ba0a73d3f64f13eebff8') in 0.037833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f2391cf234d8d189b08dbad9338b375') in 0.038518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval Castle/Prefab/Door.prefab
+  artifactKey: Guid(b6d1827eb952d174c9ca4c1467f60050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Door.prefab using Guid(b6d1827eb952d174c9ca4c1467f60050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b12daa57e30bef177a375ad39ccbd3e6') in 0.015653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Medieval Castle/Prefab/Assemble/TowerS.prefab
+  artifactKey: Guid(62bebc5ad00467c4c8dc046506d81a68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Assemble/TowerS.prefab using Guid(62bebc5ad00467c4c8dc046506d81a68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6df49727437706529a7b78a99f46400c') in 0.048628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower3A_Int.prefab
+  artifactKey: Guid(b2b5b43868a7e5449a283fcdebb04a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Tower3A_Int.prefab using Guid(b2b5b43868a7e5449a283fcdebb04a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e822784789c2d33e726c401e3b1d4f2') in 0.029537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StoneFence/Prefabs/StoneFence_Wall_LOD0.prefab
+  artifactKey: Guid(49bfd2e7a273e7a4ca574b30808dd0b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StoneFence/Prefabs/StoneFence_Wall_LOD0.prefab using Guid(49bfd2e7a273e7a4ca574b30808dd0b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f15cd1ad9446d6598190b4f47dcd68b') in 0.042356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Medieval Castle/Prefab/Tower2_T.prefab
+  artifactKey: Guid(774f5174dc3496b4d85b8404050834d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/Tower2_T.prefab using Guid(774f5174dc3496b4d85b8404050834d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1be79f487292918dab2cde33fc3a1d4a') in 0.021663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caa2c03e38707a12faa6dec1f91c4ae8') in 0.023535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Medieval Castle/Material/roof/Roof.mat
+  artifactKey: Guid(9833b02f7a7735943ba520530e5ac560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/roof/Roof.mat using Guid(9833b02f7a7735943ba520530e5ac560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '213cd00b2f172ba51b1d46d0729d8d6e') in 0.033762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f519f3fe852ce53a82530b0d8b7cbf2f') in 0.040552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval Castle/Models/Tower2.fbx
+  artifactKey: Guid(f31fd927d7ff6b544a33774eb299c0fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/Tower2.fbx using Guid(f31fd927d7ff6b544a33774eb299c0fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '211ffe1d760e82c0a003b0ed931a8f24') in 0.043002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Bosque/Rocas/Prefabs/roca grande.prefab
+  artifactKey: Guid(3d8a036586210144389f659b86e16010) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/Prefabs/roca grande.prefab using Guid(3d8a036586210144389f659b86e16010) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b912fd0786215da89ec03eb80ed1e8ac') in 0.021593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+  artifactKey: Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity using Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdf865b9a42562e585ef4c2a3f1d58ce') in 0.012839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8dd36b0739ca721794af7febd59be49') in 0.045443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0765fbfa58f66f1c97ad80a8fd96b9f3') in 0.035807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c14da1ef2854be289e9142ec829cb71') in 0.030225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tree10/Leaf18.png
+  artifactKey: Guid(52a21d4a660b5274fa7fa11d32761b08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree10/Leaf18.png using Guid(52a21d4a660b5274fa7fa11d32761b08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a1a08d9eeff1b6a6cdc53071cf371f9') in 0.041079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Castle/Models/Stairs.fbx
+  artifactKey: Guid(e405f5905a9abb54ea99958cd49aafe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/Stairs.fbx using Guid(e405f5905a9abb54ea99958cd49aafe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cb01e4f13ea0af3620d41de482141b3') in 0.038407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mushroom house/texture/mushroom_normals.tga
+  artifactKey: Guid(8c1136cafbce8454f8f230e3309bc783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom house/texture/mushroom_normals.tga using Guid(8c1136cafbce8454f8f230e3309bc783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09563c709ca022f1195eb4717755cfa8') in 0.033647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Medieval Castle/Material/wood/wood_Normal.png
+  artifactKey: Guid(8b9cd42fc686ea341b726f72654848ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Material/wood/wood_Normal.png using Guid(8b9cd42fc686ea341b726f72654848ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dce1e3137da429c9d3aa203008241537') in 0.034209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Medieval Castle/Models/Tower2_Int.fbx
+  artifactKey: Guid(e02d13ebe1f68bd4b8a5ad6fd7c3cc1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Models/Tower2_Int.fbx using Guid(e02d13ebe1f68bd4b8a5ad6fd7c3cc1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4779bdb8c03868316106ea9ee9e71dd') in 0.041481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Bosque/Rocas/Textures/Stones1_nmp.tif
+  artifactKey: Guid(6df6c1a590b194b45a83d48165b78aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Rocas/Textures/Stones1_nmp.tif using Guid(6df6c1a590b194b45a83d48165b78aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67c46e4c7368473301e3973276bdf799') in 0.041030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Medieval Castle/Prefab/TowerS.prefab
+  artifactKey: Guid(57342dbf05c807e4691f403233d7ffa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Castle/Prefab/TowerS.prefab using Guid(57342dbf05c807e4691f403233d7ffa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '340284ca4c145677619966d98da28984') in 0.023766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundTiles2ColorGroundTiles2Normalf2ee06e0fffcd150.terrainlayer
+  artifactKey: Guid(a1376e046ad452b48918ce16425f49cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundTiles2ColorGroundTiles2Normalf2ee06e0fffcd150.terrainlayer using Guid(a1376e046ad452b48918ce16425f49cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '551ae091a884ceabad0f4b0967e4fb5d') in 0.025787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '836b5a0997d3e48c7e0c6ce3904aca75') in 0.020616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Medieval Bridge/Texture and Materials/Bridge/1_AlbedoTransparency.png
+  artifactKey: Guid(bf7affff989ba1c40ae36dd4c64557d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Bridge/Texture and Materials/Bridge/1_AlbedoTransparency.png using Guid(bf7affff989ba1c40ae36dd4c64557d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd5eb75e62939b9910b87363f911d279') in 0.044058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StoneFence/Materials/StoneFence01.mat
+  artifactKey: Guid(5cb274e90c10bca4395b4fac2910367a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StoneFence/Materials/StoneFence01.mat using Guid(5cb274e90c10bca4395b4fac2910367a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98aab1704bd1e538d0921ade2f5927fc') in 0.032481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Bosque/Árboles/Materiales/bark14.mat
+  artifactKey: Guid(760ea8238d6219c42b2739f693d4c834) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Árboles/Materiales/bark14.mat using Guid(760ea8238d6219c42b2739f693d4c834) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '520091cd048c88b2a34880823116a098') in 0.124066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+  artifactKey: Guid(22a2fba786ad4c40ac0ba09f0b933100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity using Guid(22a2fba786ad4c40ac0ba09f0b933100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45547bca5d3048c20c4542128d088683') in 0.014250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Bosque/Árboles/Resources/Tree9_2.prefab
+  artifactKey: Guid(be878d9ea17907f4a8068678a5ce7908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Árboles/Resources/Tree9_2.prefab using Guid(be878d9ea17907f4a8068678a5ce7908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4c6dc738611a67d1cb352a3a00667b5') in 0.041907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6959e785f44ccd58e783018489dbafa8') in 0.016214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Escen2/NewBrush.brush
+  artifactKey: Guid(b08aa481bf84572429d97785883bc40b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Escen2/NewBrush.brush using Guid(b08aa481bf84572429d97785883bc40b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b9eab0a052d3b7052d650287aed85a3') in 0.022195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Bosque/Césped/Césped2.tif
+  artifactKey: Guid(c5d0d89ade890e64fa6fe303c51f7b44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Césped/Césped2.tif using Guid(c5d0d89ade890e64fa6fe303c51f7b44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04770afccb5b45b32086d83a92166e10') in 0.031016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+  artifactKey: Guid(70615243e2be4a81afaab9bf5d273d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity using Guid(70615243e2be4a81afaab9bf5d273d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26a756b09e1d1e4a619c71150396fec2') in 0.017810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Bosque/Césped/NewLayer.terrainlayer
+  artifactKey: Guid(ed69ce282e3e25c499044b9da12d1df7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bosque/Césped/NewLayer.terrainlayer using Guid(ed69ce282e3e25c499044b9da12d1df7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbf6b420212526ffb3816bc7b935e834') in 0.016490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
+  artifactKey: Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity using Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52283c1cf0dcb3a0060fc8a177ec125b') in 0.011751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+  artifactKey: Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity using Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2dbf52e05f2dbf6a99c78f650ff8400') in 0.009990 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3928.
+Memory consumption went from 144.3 MB to 144.2 MB.
+Total: 6.391900 ms (FindLiveObjects: 0.482100 ms CreateObjectMapping: 0.467600 ms MarkObjects: 5.296800 ms  DeleteObjects: 0.144300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
